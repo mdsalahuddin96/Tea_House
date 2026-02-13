@@ -87,12 +87,13 @@
     <!-- Meet our clients section-->
     <section class="container mx-auto my-32 bg-gradient-to-r from-[#FF8938] to-[#FF0000] grid grid-cols-1 gap-16 p-10 md:grid-cols-2 md:gap-9 md:p-20 rounded-xl">
         <!-- left section -->
-        <div class="left flex items-center">
+        <div class="left flex items-center relative">
             <div class="space-y-6">
                 <h2 class="text-[45px] font-extrabold text-amber-50">Meet Our Super <br>Clients</h2>
                 <p class="text-lg font-medium leading-7 text-[#F4F4F4]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class="px-7 py-3.5 bg-amber-50 rounded-[8px] text-[20px] text-white font-bold"><span class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] bg-clip-text text-transparent">Show All</span></button>
             </div>
+            <img class="absolute left-[110px] bottom-[-80px]" src="./images/bg_cup.png" alt="">
         </div>
         <!-- right section -->
         <div class="right pl-12 md:pl-[200px] relative"> 
@@ -157,5 +158,55 @@
             </div>
         </div>
      </section>
+    <!-- Footer section design -->
+    <section class="bg-[#ffefe9] p-14">
+        <div class="footer container mx-auto">
+            <div class="top flex justify-between mb-[50px]">
+                <img src="./images/cup.png" alt="">
+                <div class="flex items-center gap-10">
+                    <p class="text-[20px] text-[#494949] font-medium leading-10 ">Ready to get started?</p>
+                    <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 text-amber-50 text-xl font-bold rounded-[10px]">Get Started</button>
+                </div>
+            </div>
+            
+            <div class="border-t-2 border-[#494949] pt-10 flex flex-col justify-center items-center text-center  md:flex-row md:text-left md:justify-between">
+                <ul class="space-y-2">
+                    <li class="font-semibold text-[20px]">Quick Links</li>
+                    <li class="text-[#494949]">Home</li>
+                    <li class="text-[#494949]">About Us</li>
+                    <li class="text-[#494949]">insurance</li>
+                    <li class="text-[#494949]">Privacy policy</li>
+                </ul>
+                <ul class="space-y-2">
+                    <li class="font-semibold text-[20px]">Our Service</li>
+                    <li class="text-[#494949]">Life Insurance</li>
+                    <li class="text-[#494949]">Car Insurance</li>
+                    <li class="text-[#494949]">Health Insurance</li>
+                    <li class="text-[#494949]">House Insurance</li>
+                </ul>
+                <ul class="space-y-2">
+                    <li class="font-semibold text-[20px]">Help</li>
+                    <li class="text-[#494949]">FAQs</li>
+                    <li class="text-[#494949]">Contact Us</li>
+                </ul>
+                <div class="w-[305px]">
+                    <h2 class="text-2xl font-semibold leading-10 text-[#1c1c1c]">Subscribe to our <br>newsletter</h2>
+                    <div class="flex justify-between items-center">
+                        <p class="text-[#494949]">Email address</p>
+                        <div class="inline-block bg-gradient-to-r from-[#FF8938] to-[#FF0000] p-2 rounded-full"><i class="fa-solid fa-angle-right text-2xl text-white"></i></div>
+                    </div>
+                    <div class="flex gap-2 border-t-2 border-[#494949] pt-7 mt-6">
+                        <span class="p-2 border border-[#494949] rounded-full"><i class="fa-brands fa-facebook-f text-2xl"></i></span>
+                        
+                        <span class="p-2 border border-[#494949] rounded-full"><i class="fa-brands fa-twitter text-2xl"></i></span>
+                        <span class="p-2 border border-[#494949] rounded-full"><i class="fa-brands fa-square-instagram text-2xl"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-6 text-center">
+                <p class="font-medium text-[#494949]">&copy 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
